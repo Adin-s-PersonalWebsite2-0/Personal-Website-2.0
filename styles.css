@@ -94,12 +94,12 @@ button:hover {
     fill: #1BD4C5;
 }
 /* End Wave Section */
-.container {
+/* .container {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 /* Hero Section */
 #hero h1 {
     display: block;
@@ -272,3 +272,11 @@ button:hover {
     }
 }
 /* End Keyframes */
+/* Media */
+/* 
+$desktop:1200px;
+$laptop:1024px;
+$tablet:768px;
+$phone:480px; 
+*/
+/* End Media */
