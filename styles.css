@@ -69,7 +69,7 @@ button {
 }
 
 button:hover {
-    background-color: rgba(0, 136, 169, 0.8);
+    background-color: rgba(0, 136, 169, 0.5);
 }
 /* End Navbar Section */
 /* Wave Section */
@@ -93,14 +93,13 @@ button:hover {
 .wave-bottom .shape-fill {
     fill: #1BD4C5;
 }
-
+/* End Wave Section */
 .container {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-/* End Wave Section */
 /* Hero Section */
 #hero h1 {
     display: block;
@@ -110,7 +109,6 @@ button:hover {
     animation: text_reveal .5s ease forwards;
     animation-delay: 1s;
     color: transparent;
-
 }
 #hero h1:nth-child(1){
     animation-delay: 1s;
@@ -149,6 +147,108 @@ button:hover {
     justify-content: flex-start;
 }
 /* End Hero Section */
+/* Tero Section */
+#tero h1 {
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    animation: text_reveal .5s ease forwards;
+    animation-delay: 1s;
+    color: transparent;
+}
+#tero h1:nth-child(1){
+    animation-delay: 1s;
+}
+#tero h1 span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: rgba(0, 136, 169, 1);
+    animation: text_reveal_box 1s ease;
+    animation-delay: .3s;
+}
+#tero h1:nth-child(1) span {
+    animation-delay: .5s;
+}
+#tero .tero {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 0 0px;
+    justify-content: flex-start;
+}
+/* End Tero Section */
+/* Vero Section */
+#vero h1 {
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    animation: text_reveal .5s ease forwards;
+    animation-delay: 1s;
+    color: transparent;
+}
+#vero h1:nth-child(1){
+    animation-delay: 1s;
+}
+#vero h1 span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: rgba(0, 136, 169, 1);
+    animation: text_reveal_box 1s ease;
+    animation-delay: .3s;
+}
+#vero h1:nth-child(1) span {
+    animation-delay: .5s;
+}
+#vero .tero {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 0 0px;
+    justify-content: flex-start;
+}
+/* End Vero Section */
+/* Lero Section */
+#lero h1 {
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    animation: text_reveal .5s ease forwards;
+    animation-delay: 1s;
+    color: transparent;
+}
+#lero h1:nth-child(1){
+    animation-delay: 1s;
+}
+#lero h1 span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: rgba(0, 136, 169, 1);
+    animation: text_reveal_box 1s ease;
+    animation-delay: .3s;
+}
+#lero h1:nth-child(1) span {
+    animation-delay: .5s;
+}
+#lero .tero {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 0 0px;
+    justify-content: flex-start;
+}
+/* End Lero Section */
 /* Keyframes */
 @keyframes text_reveal_box {
     50% {
