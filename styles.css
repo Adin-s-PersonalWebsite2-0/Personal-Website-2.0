@@ -490,3 +490,55 @@ span {
     margin-bottom: 4rem;
 }
 /* End About Seciton */
+.pink {
+    float: right;
+    margin-top: -250px;
+    margin-right: 100px;
+}
+.blob-motion {
+    position: absolute;
+    transform: translateY(-20%);
+}
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 991px) {
+    .hero {
+        padding: 2rem 3%;
+    }
+    .pink {
+        padding: 2rem 3%;
+    }
+    .vero {
+        padding: 2rem 3%;
+    }
+    .tero {
+        padding: 2rem 3%;
+    }
+    .lero {
+        padding: 2rem 3%;
+    }
+
+    section {
+        padding: 10rem 3% 2rem;
+    }
+    .custom-shape-divider-bottom-1680812253 {
+        padding: 2rem 3%;
+    }
+}
+@media (max-width: 768px) {
+    .nav_links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+    }
+}
