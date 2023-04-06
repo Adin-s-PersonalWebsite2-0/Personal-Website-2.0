@@ -4,7 +4,6 @@
         <meta charset="utf-8">
         <meta name="viewport" contents="width=device=width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
-        <script src="https://unpkg.com/scrollreveal"></script>
         <script src="javascript.js"></script>
     </head>
     <body>
@@ -42,6 +41,28 @@
                 <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
                 <input type="submit" value="Send Message" class="btn">
             </form>
+            <script>
+                const form = document.querySelector("#form")
+   const submitButton = document.querySelector("#submit")
+   const scriptURL = 'https://script.google.com/macros/s/1XTaVdkdAnzhAHoLOA-x0K4svtJOB9RUnp2OgudFCNoEE4Lo8muDKOgSO/exec'
+
+   form.addEventListener('submit', e => {
+     submitButton.disabled = true
+     e.preventDefault()
+     let requestBody = new FormData(form)
+     fetch(scriptURL, { method: 'POST', body: requestBody})
+       .then(response => {
+          alert('Success!', response)
+          submitButton.disabled = false
+         })
+       .catch(error => {
+       alert('Error!', error.message)
+         submitButton.disabled = false
+
+       }
+       )
+   })
+            </script>
         </section>
         <!-- End Contacts Section -->
         <!-- Wave Section -->
