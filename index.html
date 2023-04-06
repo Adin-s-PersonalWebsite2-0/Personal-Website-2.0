@@ -1,64 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>My Website 2.0</title>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-        <meta name="description" content="">
-        <meta name="viewport" contents="width=device=width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <script src="javascript.js"></script>
-    </head>
-    <body>
-
-        <!-- navbar -->
-        <header>
-            <img class="name" src="images/name4.png" alt="name" style="max-width: 200px; height: auto;">
-            <nav>
-                <ul class="nav_links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
-            </nav>
-            <a class="cta" href="contact.html"><button>Contact</button></a>
-        </header>
-        <!-- end of navbar -->
-        <!-- Hero Section -->
-        <section id="hero">
-            <div class="hero container" style="margin-top: 20px; margin-left: 130px;">
-                <!-- style="height: 825px;" could also use this but this is junk for right now -->
-                <div>
-                    <h1>Hello! <span></span></h1>
-                    <h1>My Name is <span></span></h1>
-                    <h1>Adin <span></span></h1>
-                </div>
-            </div>
-        </section>
-        <!-- End Hero Section -->
-        <!-- Wave Section -->
-        <div class="custom-shape-divider-bottom-1680812253">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-            </svg>
+  <head>
+    <title>My Website 2.0</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" contents="width=device=width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <header>
+      <img
+        class="name"
+        src="images/name4.png"
+        alt="name"
+        style="max-width: 200px; height: auto"
+      />
+      <nav>
+        <ul class="nav_links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="contact.html"><button>Contact</button></a>
+    </header>
+    <!-- end of navbar -->
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="hero container" style="margin-top: 20px; margin-left: 130px">
+        <!-- style="height: 825px;" could also use this but this is junk for right now -->
+        <div>
+          <h1>Hello! <span></span></h1>
+          <h1>My Name is <span></span></h1>
+          <h1>Adin <span></span></h1>
         </div>
-        <!-- <div class="custom-shape-divider-bottom-1680812349">
+      </div>
+    </section>
+    <div class="pink">
+      <svg
+        id="visual"
+        viewBox="0 0 900 600"
+        width="900"
+        height="600"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+      >
+        <g transform="translate(452.3980974370545 319.02336859201296)">
+          <path id="blob1"
+            d="M149 -217.7C181.9 -181.1 189.9 -122.7 202.9 -69.1C215.9 -15.6 234 33.2 224.1 75.7C214.3 118.2 176.5 154.6 134.5 184.3C92.5 214 46.2 237 6 228.8C-34.3 220.5 -68.6 181.1 -116.1 153.2C-163.7 125.3 -224.5 109 -231.1 77.7C-237.8 46.4 -190.2 0 -171.2 -54.7C-152.1 -109.4 -161.6 -172.4 -137.8 -212C-114 -251.6 -57 -267.8 0.5 -268.5C58 -269.2 116 -254.3 149 -217.7"
+            fill="#BB004B"
+          ></path>
+        </g>
+        <g transform="translate(472.6763294534553 343.55969940355874)" style="visibility: hidden">
+            <path id="blob2"
+            d="M146.2 -209.8C181.8 -175.3 197.9 -122.4 207.1 -72.4C216.2 -22.5 218.4 24.6 199.2 58.9C180 93.1 139.4 114.5 102.6 129.4C65.8 144.3 32.9 152.6 -4.1 158.3C-41.1 164 -82.3 166.9 -122.9 153.3C-163.4 139.6 -203.5 109.4 -230.4 65.6C-257.4 21.8 -271.4 -35.4 -245.5 -68.8C-219.6 -102.3 -153.9 -111.8 -106.3 -142.5C-58.8 -173.2 -29.4 -225.1 12.9 -242.9C55.3 -260.7 110.5 -244.4 146.2 -209.8" fill="#BB004B">
+        </path>
+        </g>
+        <g transform="translate(456.1722832774067 266.0692835178861)" style="visibility: hidden;">
+            <path  id="blob3"
+            d="M136.3 -181.4C171.5 -162 191.3 -115.3 208 -66.9C224.8 -18.4 238.4 31.7 224.2 72C209.9 112.3 167.9 142.7 125.9 175.9C83.9 209.1 41.9 245 -8.4 256.6C-58.8 268.2 -117.6 255.5 -155.1 220.8C-192.7 186.2 -209 129.7 -224.2 74.8C-239.3 19.9 -253.3 -33.5 -230.4 -65.9C-207.6 -98.3 -147.9 -109.9 -103.3 -126.2C-58.8 -142.6 -29.4 -163.8 10.6 -178.3C50.5 -192.9 101.1 -200.8 136.3 -181.4" fill="#BB004B">
+        </path>
+        </g>
+      </svg>
+      <script>
+        const tween = KUTE.fromTo(
+            '#blob1',
+            { path: '#blob1' },
+            { path: '#blob2' },
+            // { path: '#blob3' },
+            // { path: '#blob4' },
+            { repeat: 999, duration: 3000, yoyo: true }
+        )
+        // var tween = KUTE.to('#blob1', { path: '#blob2' }).start();
+        // var tween = KUTE.to('#blob2', { path: '#blob3', yoyo: true }).start();
+        tween.start()
+      </script>
+    </div>
+    <!-- End Hero Section -->
+    <!-- Wave Section -->
+    <div class="custom-shape-divider-bottom-1680812253">
+      <svg
+        data-name="Layer 1"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1200 120"
+        preserveAspectRatio="none"
+      >
+        <path
+          d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+          opacity=".25"
+          class="shape-fill"
+        ></path>
+        <path
+          d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+          opacity=".5"
+          class="shape-fill"
+        ></path>
+        <path
+          d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+          class="shape-fill"
+        ></path>
+      </svg>
+    </div>
+    <!-- <div class="custom-shape-divider-bottom-1680812349">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
                 <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
                 <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
             </svg>
         </div> -->
-        <!-- <section>
+    <!-- <section>
             <div class="wave-bottom">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
                 </svg>
             </div>
         </section> -->
-        <!-- End Wave Section -->
-    </body>
+    <!-- End Wave Section -->
+  </body>
 </html>
