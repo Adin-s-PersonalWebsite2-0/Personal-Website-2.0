@@ -98,48 +98,6 @@ button:hover {
     background-color: rgba(0, 136, 169, 0.5);
 }
 /* End Navbar Section */
-/* Wave Section */
-/* .custom-shape-divider-bottom-1680812349 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1680812349 svg {
-    position: relative;
-    display: block;
-    width: calc(158% + 1.3px);
-    height: 164px;
-    transform: rotateY(180deg);
-}
-
-.custom-shape-divider-bottom-1680812349 .shape-fill {
-    fill: #1BD4C5;
-} */
-/* .wave-bottom {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.wave-bottom svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 266px;
-    transform: rotateY(180deg);
-}
-
-.wave-bottom .shape-fill {
-    fill: #1BD4C5;
-} */
 .custom-shape-divider-bottom-1680812253 {
     position: absolute;
     bottom: 0;
@@ -248,74 +206,6 @@ button:hover {
     justify-content: flex-start;
 }
 /* End Tero Section */
-/* Vero Section */
-#vero h1 {
-    display: block;
-    width: fit-content;
-    font-size: 4rem;
-    position: relative;
-    animation: text_reveal .5s ease forwards;
-    animation-delay: 1s;
-    color: transparent;
-}
-#vero h1:nth-child(1){
-    animation-delay: 1s;
-}
-#vero h1 span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0%;
-    background-color: rgba(0, 136, 169, 1);
-    animation: text_reveal_box 1s ease;
-    animation-delay: .3s;
-}
-#vero h1:nth-child(1) span {
-    animation-delay: .5s;
-}
-#vero .tero {
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 100px;
-    padding: 0 0px;
-    justify-content: flex-start;
-}
-/* End Vero Section */
-/* Lero Section */
-#lero h1 {
-    display: block;
-    width: fit-content;
-    font-size: 4rem;
-    position: relative;
-    animation: text_reveal .5s ease forwards;
-    animation-delay: 1s;
-    color: transparent;
-}
-#lero h1:nth-child(1){
-    animation-delay: 1s;
-}
-#lero h1 span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0%;
-    background-color: rgba(0, 136, 169, 1);
-    animation: text_reveal_box 1s ease;
-    animation-delay: .3s;
-}
-#lero h1:nth-child(1) span {
-    animation-delay: .5s;
-}
-#lero .tero {
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 100px;
-    padding: 0 0px;
-    justify-content: flex-start;
-}
-/* End Lero Section */
 /* Keyframes */
 @keyframes text_reveal_box {
     50% {
@@ -490,55 +380,20 @@ span {
     margin-bottom: 4rem;
 }
 /* End About Seciton */
+
+/* Blob */
 .pink {
     float: right;
     margin-top: -250px;
     margin-right: 100px;
 }
+
 .blob-motion {
     position: absolute;
     transform: translateY(-20%);
 }
+/* End Blob */
 
-@media (max-width: 1200px) {
-    html {
-        font-size: 55%;
-    }
-}
+/* Media Section */
 
-@media (max-width: 991px) {
-    .hero {
-        padding: 2rem 3%;
-    }
-    .pink {
-        padding: 2rem 3%;
-    }
-    .vero {
-        padding: 2rem 3%;
-    }
-    .tero {
-        padding: 2rem 3%;
-    }
-    .lero {
-        padding: 2rem 3%;
-    }
-
-    section {
-        padding: 10rem 3% 2rem;
-    }
-    .custom-shape-divider-bottom-1680812253 {
-        padding: 2rem 3%;
-    }
-}
-@media (max-width: 768px) {
-    .nav_links {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        padding: 1rem 3%;
-        background: var(--bg-color);
-        border-top: .1rem solid rgba(0, 0, 0, .2);
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-    }
-}
+/* End Media Section */
