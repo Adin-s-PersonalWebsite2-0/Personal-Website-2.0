@@ -275,6 +275,14 @@ $phone:480px;
     margin-top: 2rem;
     cursor: pointer;
 }
+.thankyou {
+    padding: 40px;
+    font-size: 32px;
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
 /* End Contact Me Submission */
 
 /* Portfolio Section */
